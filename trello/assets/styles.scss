@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  margin-left: 200px;
+}
+.res p {
+  text-align: left;
+}
+.under {
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .under:hover{
+    text-decoration: underline;
+  }
+  .wdt{
+    width: 20rem;
+  }
+  h1{
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+
+  p{
+
+    font-size: 20px;
+  }
+  .trello-board-tile {
+    margin: 20px 1px 0px 9px ;
+    height: 90px;
+    width: 26vh;
+    .v-card__subtitle {
+      font-size: 8px;
+    }
+  }
+  .customers .v-footer {
+    flex-direction: row-reverse !important;
+  }
+
+  .product{
+
+    h2{
+      font-size: 2.25rem;
+      line-height: 1.33333333;
+      margin-bottom: .5rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      line-height: 1.33333333;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .checkout{
+    .container{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+.customers {
+  h5 {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  h3{
+    font-size: 1.5rem;
+    line-height: 1.33333333;
+  }
+
+  blockquote {
+    color: #172b4d;
+    font-size: 2rem;
+  }
+}
+
+.signup {
+  background-color:white;
+  display: block;
+
+  .inner{
+    background-repeat: no-repeat;
+  
+    text-align: center;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+    line-height: 1.33333333;
+    color: #fff;
+  }
+}
+
+.apps {
+  background-color: #fafbfc;
+
+  p{
+    line-height: 2.5rem;
+  }
+}
+
+  .list{
+    list-style-type: none !important;
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .list li {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  .list li a {
+    color: #8993A4;
+  }
+
+  footer p {
+    font-size: 1em;
+  }
+
+// XS
+  @media(min-width:280px) and (max-width:360.98px){
+
+  .hideImg {
+    display: none !important;
+  }
+
+  .res{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  .res p {
+    text-align: center !important;
+  }
+
+  h1{
+    font-size: 2rem !important;
+    line-height: 1.25 !important;
+  }
+
+  h2{
+    font-size: 1.5rem !important;
+    line-height: 1.33333333 !important;
+  }
+
+  div.orderOne{
+    order: 2;
+  }
+  div.orderTwo {
+    order:1;
+  }
+  blockquote {
+    font-size: 1.5rem !important;
+  }
+  .v-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .customers .v-footer {
+    text-align: center;
+    flex-direction: column-reverse !important;
+  }
+
+  .inner {
+    width: 500px !important;
+  }
+
+  .inner h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .inner .v-btn{
+    width: 100% !important;
+  }
+}
+
+// IPHONE 6/7/8/plus/X
+// Surface Duo
+// Galaxy S5
+  @media (min-width:361px) and (max-width:575.98px){
+
+    .hideImg {
+      display: none !important;
+    }
+
+    .res{
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      text-align: center !important;
+    }
+
+    .res p {
+      text-align: center !important;
+    }
+
+    h1{
+      font-size: 2rem !important;
+      line-height: 1.25 !important;
+    }
+
+    h2{
+      font-size: 1.5rem !important;
+      line-height: 1.33333333 !important;
+    }
+
+    div.orderOne{
+      order: 2;
+    }
+    div.orderTwo {
+      order:1;
+    }
+    .v-image {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .customers .v-footer {
+      text-align: center;
+      flex-direction: column-reverse !important;
+    }
+
+    .inner {
+      width: 500px !important;
+    }
+
+    .inner h3 {
+      font-size: 1.25rem;
+      line-height: 1.2;
+    }
+
+    .inner .v-btn{
+      width: 100% !important;
+    }
+  }
+
+// MD
+@media (min-width:768px) and (max-width:991.98px){
+
+  div.orderOne{
+    order: 2;
+  }
+  div.orderTwo {
+    order:1;
+  }
+
+  .v-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customers .v-footer {
+    text-align: center;
+    flex-direction: column-reverse !important;
+  }
+
+
+
+  .inner h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+ 
+}
+// XL
+@media(min-width: 1904px) {
+  .container {
+    max-width: 1324px !important;
+  }
+}
